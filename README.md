@@ -35,8 +35,9 @@ Date:   Fri Aug 30 21:51:09 2024 -0300
 - git add <file>... (inclui arquivo para versionamento)
 - git status
 git restore --staged <file>... to unstage
-git commit -m "breve descrição do que foi feito"
-git checkout
+- git commit -m "breve descrição do que foi feito"
+- git checkout ef79ff (voltar versão) OBS: 6 primeiros dígitos do hash do commit
+- git checkout main (retornar para a última versão)
 git branch 
 git merge <nome da branch>
 git remote add origin https://github.com/MikeDevRJ/dio-resumos-git-e-github.git
